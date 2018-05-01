@@ -12,6 +12,7 @@ body {
   background-color: #fff
 }
 
+
 p, li, input, select, button {
   font-family: "Code Pro LC", sans-serif;
   color: #666;
@@ -702,6 +703,12 @@ ul.pagination .active a {
   line-height: 43px;
   padding: 0 20px;
   position: relative;
+  transition: all ease-in-out .5s
+}
+.main-nav .nav-item .nav-link:hover{
+  transform: scale(1.1);
+  text-shadow:-1px 5px 3px #e4dfdf;
+  color: #111725;
 }
 .nopipe::after{
   content: ""!important;
